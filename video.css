@@ -1,0 +1,141 @@
+body {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 10px;
+  margin-bottom: 100px;
+}
+.owner {
+  color: black;
+
+}
+.owner:hover {
+  color: brown;
+}
+.buttons-header {
+  margin-right: 20px;
+  padding: 5px 9px;
+  background-color:whitesmoke;
+  border: none;
+  color: black;
+  font-size: 15px;
+  border-radius: 5px 5px;
+}
+
+.buttons-header:hover {
+  color: red;
+  background-color: lightblue;
+  transform: translateY(3px);
+}
+
+.container {
+  display: flex;
+  padding: 20px 30px 20px 30px;
+ 
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px purple;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 100px;
+  
+}
+.my-title {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  
+
+}
+
+.description-container {
+  margin-right: 120px;
+
+}
+
+.description-para {
+  width: 400px;
+  color: rgb(110, 110, 110);
+  line-height: 25px;
+  font-size: 17px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.profile-picture {
+  border-radius: 50%;
+  width: 260px;
+  border-color: blueviolet;
+  border-style: solid;
+  box-shadow: 5px 5px 10px blueviolet;
+}
+.skills-container {
+  margin-top: 15px; 
+  display: flex;
+  align-items: center;
+
+}
+.skills {
+  margin-right: 20px;
+  font-size: 18px;
+}
+.frontend-skills {
+  margin-right: 15px;
+  width: 40px;
+  height: 40px;
+}
+.section {
+  background-image: url(images/background-image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  padding-bottom: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom-width: 1px solid red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+.cards-container {
+  width: fit-content;
+}
+
+.project-cards {
+  width: 200px;
+}
+
+@media (max-width:1000px) {
+  .header {
+    background-color: lightgray;
+  }
+  .container {
+    display: block;
+    width: 400px;
+  }
+  .projects-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:1000px) {
+
+}
