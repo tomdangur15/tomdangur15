@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on Front- End Projects
 - 📫 How to reach me tomdangur@gmail.com
 - 😄 Pronouns: He
-- ⚡ Fun fact: I am serious about work
+- ⚡ Fun fact: I enjoy work than funny things
 
 <!---
 TomHD/TomHD is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
